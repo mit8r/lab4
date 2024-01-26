@@ -28,12 +28,41 @@ document.addEventListener("DOMContentLoaded", function() {
   
     switch(zodiacSign) {
       case 'овен':
-        alertText = 'Здравствуйте, овен';
-        break;
+        alertText = 'Здравствуйте, овен'
+        break
       case 'телец':
-        alertText = 'Здравствуйте, телец';
-        break;
-      // Добавьте кейсы для остальных знаков зодиака
+        alertText = 'Здравствуйте, телец'
+        break
+      case 'близнецы':
+        alertText = 'Здравствуйте, близнецы'
+        break
+      case 'рак':
+        alertText = 'Здравствуйте, рак'
+        break
+      case 'лев':
+        alertText = 'Здравствуйте, лев'
+        break
+      case 'дева':
+        alertText = 'Здравствуйте, дева'
+        break
+      case 'весы':
+        alertText = 'Здравствуйте, весы'
+        break
+      case 'скорпион':
+        alertText = 'Здравствуйте, скорпион'
+        break
+      case 'стрелец':
+        alertText = 'Здравствуйте, стрелец'
+        break
+      case 'козерог':
+        alertText = 'Здравствуйте, козерог'
+        break
+      case 'водолей':
+        alertText = 'Здравствуйте, водолей'
+        break
+      case 'рыбы':
+        alertText = 'Здравствуйте, рыбы'
+        break
       default:
         alertText = 'Здравствуйте, не знаю что это за знак такой';
     }
